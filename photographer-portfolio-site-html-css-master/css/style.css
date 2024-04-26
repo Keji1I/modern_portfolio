@@ -174,10 +174,14 @@ h1, h2, h3{
     margin: 0 auto 1.7rem auto;
 }
 /* portfolio */
+.portfolio-grid{
+    gap: 5rem;
+
+}
 .portfolio-grid > div{
     transition: var(--transition);
     position: relative;
-    gap: 10rem;
+    box-shadow:0 0 5px rgb(189, 187, 187) ;
 }
 .portfolio-grid > div:hover{
     transform: scale(0.9);
