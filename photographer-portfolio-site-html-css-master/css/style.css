@@ -177,6 +177,7 @@ h1, h2, h3{
 .portfolio-grid > div{
     transition: var(--transition);
     position: relative;
+    gap: 10rem;
 }
 .portfolio-grid > div:hover{
     transform: scale(0.9);
