@@ -116,10 +116,15 @@ h1, h2, h3{
 }
 
 /* about */
+.about-content{
+    place-items: center;
+
+}
 .about-left{
-    margin-bottom: 4rem;
-    height: 480px;
-    overflow: hidden;
+    margin-bottom: 1rem; 
+    height: x;
+    overflow: hidden; 
+    align-self: center;
 }
 /* button down and title -reusable */
 .btn-down{
