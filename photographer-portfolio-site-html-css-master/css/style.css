@@ -176,9 +176,26 @@ h1, h2, h3{
 /* portfolio */
 .portfolio-grid > div{
     transition: var(--transition);
+    position: relative;
 }
 .portfolio-grid > div:hover{
     transform: scale(0.9);
+}
+
+.go_live{
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-color: #332e29;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.portfolio-grid > div:hover .go_live{
+    display: block;
 }
 
 /* contact */
